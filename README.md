@@ -27,4 +27,4 @@ A
 ### Links
 
 - Solution URL: [here](https://your-solution-url.com)
-- Live Site URL: [here](https://your-live-site-url.com)
+- Live Site URL: [here](https://hummingcoder.github.io/news-homepage/)

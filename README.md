@@ -26,5 +26,5 @@ A
 
 ### Links
 
-- Solution URL: [here](https://your-solution-url.com)
+- Solution URL: [here](https://www.frontendmentor.io/solutions/news-homepage-zKnnQ49v2t)
 - Live Site URL: [here](https://hummingcoder.github.io/news-homepage/)

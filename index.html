@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | News homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <section class="logo_container">
+        <img src="assets/images/logo.svg" alt="logo" class="logo" />
+        <button class="toggle_btn">
+          <img src="assets/images/icon-menu.svg" alt="icon-menu" />
+        </button>
+      </section>
+      <nav class="navbar">
+        <ul>
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article class="hero">
+        <section class="main_section">
+          <section class="img_section"></section>
+          <section class="main_txt">
+            <h1>The Bright Future of Web 3.0?</h1>
+            <div class="desc">
+              <p>
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <button class="btn"><span>READ MORE</span></button>
+            </div>
+          </section>
+        </section>
+
+        <section class="side_section">
+          <h3>New</h3>
+          <section class="items">
+            <div class="article_section">
+              <p class="art_head">Hydrogen VS Electric Cars</p>
+              <p class="art_desc">
+                Will hydrogen-fueled cars ever catch up to EVs?
+              </p>
+            </div>
+            <div class="article_section">
+              <p class="art_head">The Downsides of AI Artistry</p>
+              <p class="art_desc">
+                What are the possible adverse effects of on-demand AI image
+                generation?
+              </p>
+            </div>
+            <div class="article_section">
+              <p class="art_head">Is VC Funding Drying Up?</p>
+              <p class="art_desc">
+                Private funding by VC firms is down 50% YOY. We take a look at
+                what that means.
+              </p>
+            </div>
+          </section>
+        </section>
+      </article>
+      <article class="articles">
+        <section>
+          <img src="assets/images/image-retro-pcs.jpg" alt="image-retro-pcs" />
+          <div class="txt_article">
+            <h3>01</h3>
+            <p class="heading">Reviving Retro PCs</p>
+            <p class="desc">
+              what happens when old PCs are given modern upgarades?
+            </p>
+          </div>
+        </section>
+        <section>
+          <img
+            src="assets/images/image-top-laptops.jpg"
+            alt="image-retro-pcs"
+          />
+          <div class="txt_article">
+            <h3>02</h3>
+            <p class="heading">Top 10 Laptops of 2022</p>
+            <p class="desc">Our best picks for various needs and budgets.</p>
+          </div>
+        </section>
+        <section>
+          <img
+            src="assets/images/image-gaming-growth.jpg"
+            alt="image-retro-pcs"
+          />
+          <div class="txt_article">
+            <h3>03</h3>
+            <p class="heading">The Growth of Gaming</p>
+            <p class="desc">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </section>
+      </article>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

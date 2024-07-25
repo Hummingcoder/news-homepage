@@ -60,6 +60,7 @@ main {
   position: fixed;
 }
 .navbar {
+  background: white;
   position: fixed;
   width: 70%;
   height: 100vh;
@@ -77,24 +78,23 @@ main {
 
 .navbar ul {
   font-size: 1rem;
-
   list-style: none;
   height: 60%;
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: start;
-  gap: 3px;
+  gap: 2rem;
 }
 .navbar ul li {
-  width: 110px;
   padding: 4px 10px;
-  text-align: center;
+  text-align: left;
   cursor: pointer;
   background: transparent;
   position: relative;
   overflow: hidden;
   font-weight: 400;
+  font-size: 1rem;
 }
 .navbar ul li::before {
   content: "";
@@ -113,8 +113,8 @@ main {
 }
 
 .navbar ul li:hover::before {
-  top: -86%;
-  left: -25%;
+  top: -96%;
+  left: -42%;
 }
 
 main {
@@ -305,6 +305,7 @@ h1 {
     position: static;
     height: 100%;
     right: 0;
+    background: transparent;
   }
   .navbar ul {
     height: 100%;
@@ -312,6 +313,16 @@ h1 {
     flex-direction: row;
     color: var(--dark-grayish-blue);
     font-weight: 600;
+    gap: 4px;
+  }
+
+  .navbar ul li {
+    text-align: center;
+    width: 110px;
+  }
+  .navbar ul li:hover::before {
+    top: -86%;
+    left: -25%;
   }
   .hero {
     flex-direction: row;
